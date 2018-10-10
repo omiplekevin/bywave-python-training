@@ -12,8 +12,18 @@ any other value         Invalid Value
 """
 
 # your name and email address here
-__author__ = 'xXLXx <leo@bywave.com.au>'
+__author__ = 'xXLXx <kevin@bywave.com.au>'
 
 
 if __name__ == '__main__':
-    # your code here
+	x = input()
+	if x in range(60, 75):
+		print "Derp!"
+	elif x in range(75, 85):
+		print "Good"
+	elif x in range(85, 95):
+		print "Very Good"
+	elif x in range(95, 101):
+		print "Level Asian!"
+	else:
+		print "Invalid Value"
