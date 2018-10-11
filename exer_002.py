@@ -12,4 +12,9 @@ __author__ = 'xXLXx <leo@bywave.com.au>'
 
 
 if __name__ == '__main__':
-    # your code here
+    def print_multiples(multiple, limit):
+        for x in range(1, limit//multiple + 1):
+            print(x*multiple)
+
+
+    print_multiples(7, 100)
