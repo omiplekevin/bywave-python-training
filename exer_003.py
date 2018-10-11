@@ -22,4 +22,15 @@ __author__ = 'xXLXx <leo@bywave.com.au>'
 
 
 if __name__ == '__main__':
-    # your code here
+    while 1:
+        try:
+            x = input("Enter comma separated string: ")
+
+            x = x.replace(" ", "")
+            x = x.split(',')
+            x = sorted(x)
+            x = ','.join(x)
+
+            print(x)
+        except:
+            print('Oops, something went wrong XD')
