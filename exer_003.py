@@ -18,7 +18,7 @@ String join() method
 
 
 # your name and email address here
-__author__ = 'xXLXx <leo@bywave.com.au>'
+__author__ = 'xXLXx <kevin@bywave.com.au>'
 
 
 if __name__ == '__main__':
