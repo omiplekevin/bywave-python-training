@@ -22,4 +22,5 @@ __author__ = 'xXLXx <leo@bywave.com.au>'
 
 
 if __name__ == '__main__':
-    # your code here
+    x = raw_input().replace(',','')
+    print ','.join(sorted(set(x.lower())))

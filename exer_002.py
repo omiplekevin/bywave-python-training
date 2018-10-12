@@ -12,4 +12,5 @@ __author__ = 'xXLXx <leo@bywave.com.au>'
 
 
 if __name__ == '__main__':
-    # your code here
+    for x in range(0,100,7):
+    		print x
